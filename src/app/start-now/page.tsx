@@ -41,9 +41,10 @@ export default function StartNowPage() {
                 </div>
               </div>
             </div>
-            <div className="md:w-1/2 relative">
+        <h2>IMAGE HERE</h2>
+            {/* <div className="md:w-1/2 relative">
               <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden rounded-xl">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/20 to-[#33CCCC]/20 mix-blend-overlay z-10 rounded-xl"></div>
+                <div className="inset-0 bg-gradient-to-r from-[#FF3366]/20 to-[#33CCCC]/20 mix-blend-overlay z-10 rounded-xl"></div>
                 <Image
                   src="/placeholder.svg?height=500&width=600"
                   alt="The MeCCa Gym"
@@ -52,7 +53,7 @@ export default function StartNowPage() {
                   priority
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
