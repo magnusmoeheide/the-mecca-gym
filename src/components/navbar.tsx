@@ -16,7 +16,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-04-09%20at%2022.22.44-4WoK4xo6OGZDzxy4uGCMaRdC6HLfTC.png"
+              src="/images/mecca-logo.jpeg"
               alt="The MeCCa Gym Logo"
               width={120}
               height={60}
