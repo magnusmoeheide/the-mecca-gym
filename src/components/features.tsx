@@ -11,8 +11,7 @@ export default function Features() {
             </span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            The MeCCa Gym offers a variety of fitness programs designed to help you reach your goals, whether you're
-            looking to build muscle, improve cardio, or learn self-defense.
+          At The Mecca, we specialize in results-driven training that fuels both body and mind. Whether you’re here to build strength, boost endurance, or sharpen your fighting edge, our expert-led programs are designed to take you to the next level.
           </p>
         </div>
 
@@ -22,10 +21,9 @@ export default function Features() {
             <div className="w-16 h-16 bg-gradient-to-r from-[#FF3366] to-[#FF3366]/50 rounded-lg flex items-center justify-center mb-6 group-hover:from-[#FF3366] group-hover:to-[#33CCCC] transition-all duration-300">
               <Dumbbell className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-2xl font-bold mb-4">Weight Lifting</h3>
+            <h3 className="text-2xl font-bold mb-4">Strength Training</h3>
             <p className="text-gray-400 mb-6">
-              Build strength, increase muscle mass, and improve your overall physique with our comprehensive weight
-              training programs led by expert trainers.
+            From beginners to seasoned lifters, our strength training programs are built to help you gain muscle, increase power, and improve functional fitness. Every session is focused on form, progress, and performance.
             </p>
             <a href="/weight-lifting" className="text-[#FF3366] font-semibold flex items-center">
               Learn More
@@ -48,8 +46,7 @@ export default function Features() {
             </div>
             <h3 className="text-2xl font-bold mb-4">Aerobics</h3>
             <p className="text-gray-400 mb-6">
-              Boost your cardiovascular health, burn calories, and increase your stamina with our high-energy aerobics
-              classes suitable for all fitness levels.
+            Energize your body and elevate your mood with our dynamic aerobics classes. Perfect for improving cardiovascular health, burning fat, and increasing overall stamina — all in a fun, high-energy group environment.
             </p>
             <a href="/aerobics" className="text-[#33CCCC] font-semibold flex items-center">
               Learn More
@@ -72,8 +69,7 @@ export default function Features() {
             </div>
             <h3 className="text-2xl font-bold mb-4">Boxing</h3>
             <p className="text-gray-400 mb-6">
-              Learn proper boxing techniques, improve your coordination, and get a full-body workout with our boxing
-              classes taught by professional trainers.
+            Unleash your inner fighter. Our boxing sessions blend technique, conditioning, and discipline to build speed, coordination, and confidence. Whether you’re training for fitness or the ring, we’ve got your corner.
             </p>
             <a href="/boxing" className="text-[#FF3366] font-semibold flex items-center">
               Learn More

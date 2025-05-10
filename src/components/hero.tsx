@@ -39,7 +39,7 @@ export default function Hero() {
             <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden rounded-xl">
               <div className="inset-0 bg-gradient-to-r from-[#FF3366]/20 to-[#33CCCC]/20 mix-blend-overlay z-10 rounded-xl"></div>
               <Image
-                src="/images/fce48315-6b0f-4568-8aaf-68d859d7c9b2.jpeg"
+                src="/images/hero.jpeg"
                 alt="Gym Training"
                 fill
                 className="object-cover rounded-xl"

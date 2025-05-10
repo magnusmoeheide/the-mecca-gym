@@ -28,7 +28,7 @@ export default function AboutPage() {
               <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden rounded-xl">
                 <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/20 to-[#33CCCC]/20 mix-blend-overlay z-10 rounded-xl"></div>
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/images/about.jpeg"
                   alt="The MeCCa Gym"
                   fill
                   className="object-cover rounded-xl"

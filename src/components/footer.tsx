@@ -47,11 +47,11 @@ export default function Footer() {
                   Home
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/about" className="text-gray-400 hover:text-[#33CCCC] transition-colors">
                   About Us
                 </Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link href="/classes" className="text-gray-400 hover:text-[#33CCCC] transition-colors">
                   Classes
@@ -80,8 +80,8 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Our Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/weight-lifting" className="text-gray-400 hover:text-[#33CCCC] transition-colors">
-                  Weight Lifting
+                <Link href="/strength-training" className="text-gray-400 hover:text-[#33CCCC] transition-colors">
+                 Strength Training
                 </Link>
               </li>
               <li>
@@ -118,11 +118,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-[#FF3366] mr-3 mt-1" />
-                <span className="text-gray-400">123 Fitness Street, Gym City, GC 12345</span>
+                <span className="text-gray-400">Nairobi Eastleigh 4th Street Al Bait Apartment, 1st floor</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-[#FF3366] mr-3" />
-                <span className="text-gray-400">(123) 456-7890</span>
+                <span className="text-gray-400">0729779137</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-[#FF3366] mr-3" />

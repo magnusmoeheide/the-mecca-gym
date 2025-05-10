@@ -45,20 +45,20 @@ export default function ContactPage() {
                   <div className="flex items-start">
                     <MapPin className="h-5 w-5 text-[#FF3366] mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="text-gray-300">123 Fitness Boulevard, Gym City, GC 12345</p>
+                      <p className="text-gray-300">Nairobi Eastleigh, Muyuyu Lane Ramadan Apartment underground, next to Nur Hotel</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Phone className="h-5 w-5 text-[#FF3366] mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="text-gray-300">(123) 456-7890</p>
+                      <p className="text-gray-300">0729779137</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Clock className="h-5 w-5 text-[#FF3366] mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="text-gray-300">Mon-Fri: 5am - 10pm</p>
-                      <p className="text-gray-300">Sat-Sun: 7am - 8pm</p>
+                      <p className="text-gray-300">Mon-Sat: 6am - 9:30pm</p>
+                      <p className="text-gray-300">Sunday: Closed</p>
                     </div>
                   </div>
                 </div>
@@ -71,20 +71,20 @@ export default function ContactPage() {
                   <div className="flex items-start">
                     <MapPin className="h-5 w-5 text-[#33CCCC] mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="text-gray-300">456 Strength Avenue, Gym City, GC 12345</p>
+                      <p className="text-gray-300">Nairobi Eastleigh 4th Street Al Bait Apartment, 1st floor</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Phone className="h-5 w-5 text-[#33CCCC] mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="text-gray-300">(123) 456-7891</p>
+                      <p className="text-gray-300">0729779137</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Clock className="h-5 w-5 text-[#33CCCC] mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="text-gray-300">Mon-Fri: 5am - 11pm</p>
-                      <p className="text-gray-300">Sat-Sun: 6am - 9pm</p>
+                      <p className="text-gray-300">Mon-Sat: 5:40am - 10:30pm</p>
+                      <p className="text-gray-300">Sunday: 8:30am - 6pm</p>
                     </div>
                   </div>
                 </div>
@@ -108,8 +108,8 @@ export default function ContactPage() {
                   <Phone className="h-6 w-6 text-[#33CCCC] mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-lg">Call Us</h4>
-                    <p className="text-gray-300">Main: (123) 456-7890</p>
-                    <p className="text-gray-400 mt-1 text-sm">Available 7 days a week, 8am - 8pm</p>
+                    <p className="text-gray-300">Main: 0729779137</p>
+                    <p className="text-gray-400 mt-1 text-sm">Available 7 days a week, 9am - 6pm</p>
                   </div>
                 </div>
               </div>
@@ -119,21 +119,21 @@ export default function ContactPage() {
             <div className="text-center">
               <h3 className="text-xl font-bold mb-6">Connect With Us</h3>
               <div className="flex justify-center space-x-6">
-                <a
+                {/* <a
                   href="#"
                   className="bg-gray-900 p-3 rounded-full hover:bg-[#FF3366]/20 transition-colors"
                   aria-label="Facebook"
                 >
                   <Facebook className="h-6 w-6 text-gray-300" />
-                </a>
+                </a> */}
                 <a
-                  href="#"
+                  href="https://www.instagram.com/themeccagymm_/"
                   className="bg-gray-900 p-3 rounded-full hover:bg-[#FF3366]/20 transition-colors"
                   aria-label="Instagram"
                 >
                   <Instagram className="h-6 w-6 text-gray-300" />
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="bg-gray-900 p-3 rounded-full hover:bg-[#33CCCC]/20 transition-colors"
                   aria-label="Twitter"
@@ -146,7 +146,7 @@ export default function ContactPage() {
                   aria-label="YouTube"
                 >
                   <Youtube className="h-6 w-6 text-gray-300" />
-                </a>
+                </a> */}
               </div>
               <p className="text-gray-400 mt-4">
                 Follow us on social media for fitness tips, event updates, and member spotlights

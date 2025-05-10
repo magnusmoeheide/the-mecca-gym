@@ -16,13 +16,13 @@ export default function WeightLiftingPage() {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                <span className="text-[#FF3366]">WEIGHT</span>{" "}
+                <span className="text-[#FF3366]">STRENGTH</span>{" "}
                 <span className="bg-gradient-to-r from-[#FF3366] to-[#33CCCC] text-transparent bg-clip-text">
-                  LIFTING
+                  TRAINING
                 </span>
               </h1>
               <p className="text-gray-300 text-lg mb-8">
-                Build strength, increase muscle mass, and improve your overall physique with our comprehensive weight
+                Build strength, increase muscle mass, and improve your overall physique with our comprehensive strength
                 training programs led by expert trainers.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -42,8 +42,8 @@ export default function WeightLiftingPage() {
               <div className="relative h-[400px] w-full overflow-hidden rounded-xl">
                 <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/20 to-transparent mix-blend-overlay z-10 rounded-xl"></div>
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
-                  alt="Weight Lifting"
+                  src="/images/strength-training.jpeg"
+                  alt="Strength Training"
                   fill
                   className="object-cover rounded-xl"
                   priority
@@ -64,7 +64,7 @@ export default function WeightLiftingPage() {
               </span>
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Our weight lifting program is designed for all fitness levels, from beginners to advanced lifters.
+              Our strength training program is designed for all fitness levels, from beginners to advanced lifters.
             </p>
           </div>
 
@@ -106,7 +106,7 @@ export default function WeightLiftingPage() {
       </section>
 
       {/* Class Schedule */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -115,7 +115,7 @@ export default function WeightLiftingPage() {
               </span>
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Join our weight lifting classes at times that fit your schedule.
+              Join our strength training classes at times that fit your schedule.
             </p>
           </div>
 
@@ -163,7 +163,7 @@ export default function WeightLiftingPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 bg-gray-950">
@@ -175,7 +175,7 @@ export default function WeightLiftingPage() {
               </span>
             </h2>
             <p className="text-gray-300 text-lg mb-8 max-w-3xl mx-auto">
-              Join our weight lifting program today and start your journey to a stronger, more powerful you.
+              Join our strength training program today and start your journey to a stronger, more powerful you.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Link href="/start-now">

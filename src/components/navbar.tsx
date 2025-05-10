@@ -29,8 +29,8 @@ export default function Navbar() {
             <Link href="/" className="text-white hover:text-[#FF3366] transition-colors">
               Home
             </Link>
-            <Link href="/weight-lifting" className="text-white hover:text-[#FF3366] transition-colors">
-              Weight Lifting
+            <Link href="/strength-training" className="text-white hover:text-[#FF3366] transition-colors">
+              Strength Training
             </Link>
             <Link href="/aerobics" className="text-white hover:text-[#FF3366] transition-colors">
               Aerobics
@@ -38,9 +38,9 @@ export default function Navbar() {
             <Link href="/boxing" className="text-white hover:text-[#FF3366] transition-colors">
               Boxing
             </Link>
-            <Link href="/about" className="text-white hover:text-[#FF3366] transition-colors">
+            {/* <Link href="/about" className="text-white hover:text-[#FF3366] transition-colors">
               About
-            </Link>
+            </Link> */}
             <Link href="/contact" className="text-white hover:text-[#FF3366] transition-colors">
               Contact
             </Link>
@@ -73,11 +73,11 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="/weight-lifting"
+              href="/strength-training"
               className="text-white hover:text-[#FF3366] py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Weight Lifting
+              Strength Training
             </Link>
             <Link
               href="/aerobics"

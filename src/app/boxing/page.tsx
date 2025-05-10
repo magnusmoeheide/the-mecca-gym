@@ -42,7 +42,7 @@ export default function BoxingPage() {
               <div className="relative h-[400px] w-full overflow-hidden rounded-xl">
                 <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/20 to-transparent mix-blend-overlay z-10 rounded-xl"></div>
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/images/boxing.jpeg"
                   alt="Boxing Training"
                   fill
                   className="object-cover rounded-xl"

@@ -1,4 +1,4 @@
-import { Check } from "lucide-react"
+import { Check, PlusCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -14,19 +14,33 @@ export default function Membership() {
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Choose the membership plan that fits your fitness goals and lifestyle. All plans include access to our
-            state-of-the-art facilities and expert trainers.
+            state-of-the-art facilities.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto px-4">
+
           {/* Basic Plan */}
           <div className="bg-black p-8 rounded-xl border border-gray-800 hover:border-[#FF3366] transition-all duration-300">
-            <h3 className="text-2xl font-bold mb-2">Basic</h3>
-            <p className="text-gray-400 mb-6">Perfect for beginners</p>
-            <div className="mb-6">
-              <span className="text-4xl font-bold">ksh 4,999</span>
-              <span className="text-gray-400">/month</span>
+            <h3 className="text-2xl font-bold mb-2">Ladies Membership</h3>
+            <p className="text-gray-400 mb-6">Strong women lift each other — and themselves.</p>
+            <div className="mb-6 space-y-3">
+            <div>
+              <span className="text-4xl font-bold text-white">Ksh 4,000</span>
+              <span className="text-gray-400 text-lg"> /month</span>
             </div>
+            <div className="space-y-2 text-base">
+              <div className="bg-white/10 p-3 rounded-lg flex justify-between items-center">
+                <span className="font-semibold text-white">2 months</span>
+                <span className="text-gray-300">Ksh 7,000</span>
+              </div>
+              <div className="bg-white/10 p-3 rounded-lg flex justify-between items-center">
+                <span className="font-semibold text-white">3 months</span>
+                <span className="text-gray-300">Ksh 9,000</span>
+              </div>
+            </div>
+          </div>
+
             <ul className="space-y-4 mb-8">
               <li className="flex items-center">
                 <Check className="h-5 w-5 text-[#FF3366] mr-3" />
@@ -34,15 +48,15 @@ export default function Membership() {
               </li>
               <li className="flex items-center">
                 <Check className="h-5 w-5 text-[#FF3366] mr-3" />
-                <span>2 group classes per week</span>
+                <span>Weekly group classes</span>
               </li>
               <li className="flex items-center">
                 <Check className="h-5 w-5 text-[#FF3366] mr-3" />
                 <span>Locker room access</span>
               </li>
               <li className="flex items-center">
-                <Check className="h-5 w-5 text-[#FF3366] mr-3" />
-                <span>Fitness assessment</span>
+                <PlusCircle className="h-5 w-5 text-[#FF3366] mr-3" />
+                <span>Boxing at a surcharge of ksh 500/month</span>
               </li>
             </ul>
             <Link href="start-now">
@@ -52,73 +66,43 @@ export default function Membership() {
             </Link>
           </div>
 
-          <div className="bg-black p-8 rounded-xl border-2 border-[#33CCCC] transform scale-105 relative">
-            <div className="absolute top-0 right-0 bg-gradient-to-r from-[#FF3366] to-[#33CCCC] text-white text-sm font-bold py-1 px-4 rounded-bl-lg rounded-tr-lg">
-              POPULAR
-            </div>
-            <h3 className="text-2xl font-bold mb-2">Premium</h3>
-            <p className="text-gray-400 mb-6">Best value for serious fitness</p>
-            <div className="mb-6">
-              <span className="text-4xl font-bold">ksh 7,999</span>
-              <span className="text-gray-400">/month</span>
-            </div>
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-[#33CCCC] mr-3" />
-                <span>Unlimited gym access</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-[#33CCCC] mr-3" />
-                <span>Unlimited group classes</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-[#33CCCC] mr-3" />
-                <span>1 personal training session/month</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-[#33CCCC] mr-3" />
-                <span>Nutrition consultation</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-[#33CCCC] mr-3" />
-                <span>Access to premium amenities</span>
-              </li>
-            </ul>
-            <Link href="/start-now">
-            <Button className="w-full bg-gradient-to-r from-[#33CCCC] to-[#FF3366] hover:from-[#33CCCC]/90 hover:to-[#FF3366]/90 text-white">
-             Join Now
-            </Button>
-            </Link>
-          </div>
-
-          {/* Elite Plan */}
           <div className="bg-black p-8 rounded-xl border border-gray-800 hover:border-[#FF3366] transition-all duration-300">
-            <h3 className="text-2xl font-bold mb-2">Elite</h3>
-            <p className="text-gray-400 mb-6">For the dedicated athlete</p>
-            <div className="mb-6">
-              <span className="text-4xl font-bold">ksh 11,999</span>
-              <span className="text-gray-400">/month</span>
+            <h3 className="text-2xl font-bold mb-2">Men's Membership</h3>
+            <p className="text-gray-400 mb-6">Discipline is the bridge between goals and gains.</p>
+   
+            <div className="mb-6 space-y-3">
+              <div>
+                <span className="text-4xl font-bold text-white">Ksh 4,500</span>
+                <span className="text-gray-400 text-lg"> /month</span>
+              </div>
+              <div className="space-y-2 text-base">
+                <div className="bg-white/10 p-3 rounded-lg flex justify-between items-center">
+                  <span className="font-semibold text-white">2 months</span>
+                  <span className="text-gray-300">Ksh 8,000</span>
+                </div>
+                <div className="bg-white/10 p-3 rounded-lg flex justify-between items-center">
+                  <span className="font-semibold text-white">3 months</span>
+                  <span className="text-gray-300">Ksh 10,500</span>
+                </div>
+              </div>
             </div>
+
             <ul className="space-y-4 mb-8">
               <li className="flex items-center">
                 <Check className="h-5 w-5 text-[#FF3366] mr-3" />
-                <span>24/7 gym access</span>
+                <span>Access to gym equipment</span>
               </li>
               <li className="flex items-center">
                 <Check className="h-5 w-5 text-[#FF3366] mr-3" />
-                <span>Unlimited group classes</span>
+                <span>Weekly group classes</span>
               </li>
               <li className="flex items-center">
                 <Check className="h-5 w-5 text-[#FF3366] mr-3" />
-                <span>4 personal training sessions/month</span>
+                <span>Locker room access</span>
               </li>
               <li className="flex items-center">
-                <Check className="h-5 w-5 text-[#FF3366] mr-3" />
-                <span>Custom nutrition & workout plan</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-[#FF3366] mr-3" />
-                <span>VIP amenities & priority booking</span>
+              <PlusCircle className="h-5 w-5 text-[#FF3366] mr-3" />
+                <span>Boxing at a surcharge of ksh 500/month</span>
               </li>
             </ul>
             <Link href="/start-now">

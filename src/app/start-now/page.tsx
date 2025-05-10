@@ -3,6 +3,8 @@ import Footer from "@/components/footer"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Phone, Mail, MapPin, Clock, ArrowRight } from "lucide-react"
+import WomensFacility from "@/components/womens-facility"
+import MensFacility from "@/components/mens-facility"
 
 export default function StartNowPage() {
   return (
@@ -29,7 +31,7 @@ export default function StartNowPage() {
                   <Phone className="h-6 w-6 text-[#FF3366] mr-4" />
                   <div>
                     <p className="text-xl font-bold">Call Us</p>
-                    <p className="text-gray-300">(123) 456-7890</p>
+                    <p className="text-gray-300">0729779137</p>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -41,19 +43,19 @@ export default function StartNowPage() {
                 </div>
               </div>
             </div>
-        <h2>IMAGE HERE</h2>
-            {/* <div className="md:w-1/2 relative">
+       
+            <div className="md:w-1/2 relative">
               <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden rounded-xl">
                 <div className="inset-0 bg-gradient-to-r from-[#FF3366]/20 to-[#33CCCC]/20 mix-blend-overlay z-10 rounded-xl"></div>
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/images/start.jpeg"
                   alt="The MeCCa Gym"
                   fill
                   className="object-cover rounded-xl"
                   priority
                 />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
@@ -80,7 +82,7 @@ export default function StartNowPage() {
               </div>
               <h3 className="text-2xl font-bold mb-4 mt-4">Contact Us</h3>
               <p className="text-gray-400 mb-6">
-                Call us at (123) 456-7890 or email info@themeccagym.com to express your interest in joining The MeCCa
+                Call us at 0729779137 or email info@themeccagym.com to express your interest in joining The MeCCa
                 Gym.
               </p>
               <div className="flex items-center text-[#FF3366]">
@@ -144,97 +146,12 @@ export default function StartNowPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             {/* Women's Location */}
-            <div className="bg-black rounded-xl overflow-hidden border border-gray-800 hover:border-[#FF3366] transition-all duration-300 group">
-              <div className="relative h-64 w-full">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/30 to-transparent z-10"></div>
-                <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Women's Gym Location"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute top-4 left-4 bg-[#FF3366] text-white px-4 py-2 rounded-lg z-20 font-bold">
-                  WOMEN ONLY
-                </div>
-              </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-bold mb-4 text-[#FF3366]">The MeCCa - Women's Facility</h3>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                  <div className="flex items-start">
-                    <MapPin className="h-5 w-5 text-[#FF3366] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold mb-1">Address</h4>
-                      <p className="text-gray-400">123 Fitness Boulevard, Gym City, GC 12345</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <Clock className="h-5 w-5 text-[#FF3366] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold mb-1">Hours</h4>
-                      <p className="text-gray-400">Mon-Fri: 5am - 10pm</p>
-                      <p className="text-gray-400">Sat-Sun: 7am - 8pm</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <Phone className="h-5 w-5 text-[#FF3366] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold mb-1">Contact</h4>
-                      <p className="text-gray-400">(123) 456-7890</p>
-                    </div>
-                  </div>
-                </div>
-
-               
-              </div>
-            </div>
+           <WomensFacility />
 
             {/* Men's Location */}
-            <div className="bg-black rounded-xl overflow-hidden border border-gray-800 hover:border-[#33CCCC] transition-all duration-300 group">
-              <div className="relative h-64 w-full">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#33CCCC]/30 to-transparent z-10"></div>
-                <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Men's Gym Location"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute top-4 left-4 bg-[#33CCCC] text-white px-4 py-2 rounded-lg z-20 font-bold">
-                  MEN ONLY
-                </div>
-              </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-bold mb-4 text-[#33CCCC]">The MeCCa - Men's Facility</h3>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                  <div className="flex items-start">
-                    <MapPin className="h-5 w-5 text-[#33CCCC] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold mb-1">Address</h4>
-                      <p className="text-gray-400">456 Strength Avenue, Gym City, GC 12345</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <Clock className="h-5 w-5 text-[#33CCCC] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold mb-1">Hours</h4>
-                      <p className="text-gray-400">Mon-Fri: 5am - 11pm</p>
-                      <p className="text-gray-400">Sat-Sun: 6am - 9pm</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <Phone className="h-5 w-5 text-[#33CCCC] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold mb-1">Contact</h4>
-                      <p className="text-gray-400">(123) 456-7891</p>
-                    </div>
-                  </div>
-                </div>
-
-               
-              </div>
-            </div>
+            <MensFacility />
           </div>
+          
         </div>
       </section>
 
