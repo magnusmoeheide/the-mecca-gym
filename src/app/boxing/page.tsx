@@ -38,18 +38,19 @@ export default function BoxingPage() {
               </Link>
               </div>
             </div>
-            <div className="md:w-1/2 relative">
-              <div className="relative h-[400px] w-full overflow-hidden rounded-xl">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/20 to-transparent mix-blend-overlay z-10 rounded-xl"></div>
-                <Image
-                  src="/images/boxing.jpeg"
-                  alt="Boxing Training"
-                  fill
-                  className="object-cover rounded-xl"
-                  priority
-                />
-              </div>
-            </div>
+            <div className="w-full md:w-1/2 relative">
+  <div className="relative h-[400px] w-full overflow-hidden rounded-xl">
+    <Image
+      src="/images/boxing.jpeg"
+      alt="Boxing Training"
+      fill
+      className="object-cover rounded-xl z-0"
+      priority
+    />
+    <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-[#FF3366]/20 to-transparent mix-blend-overlay z-10 rounded-xl pointer-events-none" />
+  </div>
+</div>
+
           </div>
         </div>
       </section>

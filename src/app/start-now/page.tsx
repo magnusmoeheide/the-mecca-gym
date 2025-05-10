@@ -44,18 +44,19 @@ export default function StartNowPage() {
               </div>
             </div>
        
-            <div className="md:w-1/2 relative">
+            <div className="w-full md:w-1/2 relative">
               <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden rounded-xl">
-                <div className="inset-0 bg-gradient-to-r from-[#FF3366]/20 to-[#33CCCC]/20 mix-blend-overlay z-10 rounded-xl"></div>
                 <Image
                   src="/images/start.jpeg"
                   alt="The MeCCa Gym"
                   fill
-                  className="object-cover rounded-xl"
+                  className="object-cover rounded-xl z-0"
                   priority
                 />
+                <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-[#FF3366]/20 to-[#33CCCC]/20 mix-blend-overlay z-10 rounded-xl pointer-events-none" />
               </div>
             </div>
+
           </div>
         </div>
       </section>

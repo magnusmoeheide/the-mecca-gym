@@ -93,13 +93,13 @@ export default function Navbar() {
             >
               Boxing
             </Link>
-            <Link
+            {/* <Link
               href="/about"
               className="text-white hover:text-[#FF3366] py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               About
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className="text-white hover:text-[#FF3366] py-2 transition-colors"

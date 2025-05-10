@@ -35,31 +35,32 @@ export default function Hero() {
              
             </div>
           </div>
-          <div className="md:w-1/2 relative">
-            <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden rounded-xl">
-              <div className="inset-0 bg-gradient-to-r from-[#FF3366]/20 to-[#33CCCC]/20 mix-blend-overlay z-10 rounded-xl"></div>
-              <Image
-                src="/images/hero.jpeg"
-                alt="Gym Training"
-                fill
-                className="object-cover rounded-xl"
-                priority
-              />
-            </div>
-            <div className="absolute -bottom-5 -left-5 bg-black p-4 rounded-lg border border-gray-800 z-20">
-              <div className="flex items-center gap-4">
-                <div className="bg-gradient-to-r from-[#FF3366] to-[#33CCCC] rounded-full p-1">
-                  <div className="bg-black rounded-full p-2">
-                    <span className="text-2xl font-bold">500+</span>
-                  </div>
-                </div>
-                <div>
-                  <p className="text-sm text-gray-400">Happy Members</p>
-                  <p className="text-white font-semibold">Join the community</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div className="w-full md:w-1/2 relative">
+  <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden rounded-xl">
+    <Image
+      src="/images/hero.jpeg?height=500&width=600"
+      alt="Gym Training"
+      fill
+      className="object-cover rounded-xl z-0"
+      priority
+    />
+    <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-[#FF3366]/20 to-[#33CCCC]/20 mix-blend-overlay z-10 rounded-xl pointer-events-none" />
+  </div>
+  <div className="absolute bottom-5 left-5 md:-bottom-5 md:-left-5 bg-black p-4 rounded-lg border border-gray-800 z-20">
+    <div className="flex items-center gap-4">
+      <div className="bg-gradient-to-r from-[#FF3366] to-[#33CCCC] rounded-full p-1">
+        <div className="bg-black rounded-full p-2">
+          <span className="text-2xl font-bold">500+</span>
+        </div>
+      </div>
+      <div>
+        <p className="text-sm text-gray-400">Happy Members</p>
+        <p className="text-white font-semibold">Join the community</p>
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
     </section>

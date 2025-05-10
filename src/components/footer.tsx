@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="inline-block mb-4">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-04-09%20at%2022.22.44-4WoK4xo6OGZDzxy4uGCMaRdC6HLfTC.png"
+                src="/images/mecca-logo.jpeg"
                 alt="The MeCCa Gym Logo"
                 width={150}
                 height={75}

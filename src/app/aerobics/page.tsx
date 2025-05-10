@@ -37,18 +37,20 @@ export default function AerobicsPage() {
               </Link>
               </div>
             </div>
-            <div className="md:w-1/2 relative">
+            <div className="w-full md:w-1/2 relative">
               <div className="relative h-[400px] w-full overflow-hidden rounded-xl">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#33CCCC]/20 to-transparent mix-blend-overlay z-10 rounded-xl"></div>
                 <Image
                   src="/images/aerobics.jpeg"
                   alt="Aerobics Class"
                   fill
-                  className="object-cover rounded-xl"
+                  className="object-cover rounded-xl z-0"
                   priority
                 />
+                {/* overlay hidden on mobile */}
+                <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-[#33CCCC]/20 to-transparent mix-blend-overlay z-10 rounded-xl pointer-events-none" />
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -175,7 +177,7 @@ export default function AerobicsPage() {
       </section>
 
       {/* Schedule */}
-      <section className="py-16 bg-gray-950">
+      {/* <section className="py-16 bg-gray-950">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -233,7 +235,7 @@ export default function AerobicsPage() {
             </table>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16">

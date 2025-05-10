@@ -38,18 +38,20 @@ export default function WeightLiftingPage() {
                 </Link>
               </div>
             </div>
-            <div className="md:w-1/2 relative">
-              <div className="relative h-[400px] w-full overflow-hidden rounded-xl">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#FF3366]/20 to-transparent mix-blend-overlay z-10 rounded-xl"></div>
-                <Image
-                  src="/images/strength-training.jpeg"
-                  alt="Strength Training"
-                  fill
-                  className="object-cover rounded-xl"
-                  priority
-                />
-              </div>
-            </div>
+            <div className="w-full md:w-1/2 relative">
+  <div className="relative h-[400px] w-full overflow-hidden rounded-xl">
+    <Image
+      src="/images/strength-training.jpeg"
+      alt="Strength Training"
+      fill
+      className="object-cover rounded-xl z-0"
+      priority
+    />
+    {/* only show overlay on md-up so mobile sees the image unfiltered */}
+    <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-[#FF3366]/20 to-transparent mix-blend-overlay z-10 rounded-xl pointer-events-none" />
+  </div>
+</div>
+
           </div>
         </div>
       </section>
