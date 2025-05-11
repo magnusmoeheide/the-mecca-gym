@@ -38,7 +38,7 @@ export default function Hero() {
           <div className="w-full md:w-1/2 relative">
   <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden rounded-xl">
     <Image
-      src="/images/hero.jpeg?height=500&width=600"
+      src="/images/forside.jpeg?height=500&width=600"
       alt="Gym Training"
       fill
       className="object-cover rounded-xl z-0"
