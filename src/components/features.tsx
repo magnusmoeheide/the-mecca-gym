@@ -25,7 +25,7 @@ export default function Features() {
             <p className="text-gray-400 mb-6">
             From beginners to seasoned lifters, our strength training programs are built to help you gain muscle, increase power, and improve functional fitness. Every session is focused on form, progress, and performance.
             </p>
-            <a href="/weight-lifting" className="text-[#FF3366] font-semibold flex items-center">
+            <a href="/strength-training" className="text-[#FF3366] font-semibold flex items-center">
               Learn More
               <svg
                 className="w-5 h-5 ml-2"
