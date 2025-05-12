@@ -184,8 +184,7 @@ export default function StartNowPage() {
             <div className="bg-black p-6 rounded-xl border border-gray-800">
               <h3 className="text-xl font-bold mb-3 text-[#33CCCC]">Is there a joining fee?</h3>
               <p className="text-gray-400">
-                Yes, there is a one-time joining fee of $49, which is waived during certain promotional periods
-                throughout the year.
+               No! We do not charge any joining fees. You only pay for your selected membership plan.
               </p>
             </div>
 
@@ -241,7 +240,7 @@ export default function StartNowPage() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button className="bg-gradient-to-r from-[#FF3366] to-[#33CCCC] hover:from-[#FF3366]/90 hover:to-[#33CCCC]/90 text-white px-8 py-6 text-lg">
-                Call (123) 456-7890
+                Call 0729779137
               </Button>
               <Button
                 variant="outline"
