@@ -242,12 +242,12 @@ export default function StartNowPage() {
               <Button className="bg-gradient-to-r from-[#FF3366] to-[#33CCCC] hover:from-[#FF3366]/90 hover:to-[#33CCCC]/90 text-white px-8 py-6 text-lg">
                 Call 0729779137
               </Button>
-              <Button
+              {/* <Button
                 variant="outline"
                 className="border-[#33CCCC] text-[#33CCCC] hover:bg-[#33CCCC]/10 px-8 py-6 text-lg"
               >
                 Email Us
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
